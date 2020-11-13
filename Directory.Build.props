@@ -1,0 +1,8 @@
+<Project>
+ <PropertyGroup>
+   <Deterministic>true</Deterministic>
+   <Nullable>enable</Nullable>
+   <OutputPath>$(SolutionDir)\build\$(SolutionName)\$(Platform)\$(Configuration)</OutputPath>
+   <LangLevel>latest</LangLevel>
+ </PropertyGroup>
+</Project>

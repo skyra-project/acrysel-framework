@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acrysel", "Acrysel\Acrysel.csproj", "{8840B9AA-4605-44D5-933E-1E6C657F2F9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acrysel.Tests", "Acrysel.Tests\Acrysel.Tests.csproj", "{A0CF0E47-7985-43DE-AC05-273E794CA126}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8840B9AA-4605-44D5-933E-1E6C657F2F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8840B9AA-4605-44D5-933E-1E6C657F2F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8840B9AA-4605-44D5-933E-1E6C657F2F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8840B9AA-4605-44D5-933E-1E6C657F2F9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8840B9AA-4605-44D5-933E-1E6C657F2F9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A0CF0E47-7985-43DE-AC05-273E794CA126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CF0E47-7985-43DE-AC05-273E794CA126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CF0E47-7985-43DE-AC05-273E794CA126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CF0E47-7985-43DE-AC05-273E794CA126}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
