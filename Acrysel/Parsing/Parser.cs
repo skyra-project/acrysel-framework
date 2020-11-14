@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace Acrysel.Parsing
+﻿namespace Acrysel.Parsing
 {
-    public class Parser
+    public sealed class Parser
     {
         private readonly string[] _prefixes;
         private readonly string _seperator;
