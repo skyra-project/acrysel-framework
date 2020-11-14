@@ -32,7 +32,7 @@ namespace Acrysel.Tests.Parsing
         public void Parser_Consume_ReturnsCorrectChar(int ahead, char expectedValue)
         {
             // assign
-            var parser = new Parser(new[] {"!"}, " ", InputString);
+            var parser = new Parser(new[] {"!"}, " ",new string[] { "--", "-", "—" }, InputString);
             
             // act
             var token = parser.Consume(ahead);
@@ -48,7 +48,7 @@ namespace Acrysel.Tests.Parsing
         public void Parser_Consume_MovesHeadCorrectly(int ahead, string expectedValue)
         {
             // assign
-            var parser = new Parser(new[] {"!"}, " ", InputString);
+            var parser = new Parser(new[] {"!"}, " ",new string[] { "--", "-", "—" }, InputString);
             
             // act
             var _ = parser.Consume(ahead);
