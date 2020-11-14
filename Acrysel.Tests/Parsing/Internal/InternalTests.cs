@@ -1,10 +1,10 @@
 ﻿using Acrysel.Parsing;
 using NUnit.Framework;
 
-namespace Acrysel.Tests.Parsing
+namespace Acrysel.Tests.Parsing.Internal
 {
     [TestFixture, Parallelizable(ParallelScope.All)]
-    public class ParserTest
+    public class InternalTests
     {
         private const string InputString = "!test --option=a hello 1";
 
@@ -15,7 +15,7 @@ namespace Acrysel.Tests.Parsing
         public void Parser_Peek_ReturnsCorrectSlice(int ahead, int amount, string expectedSlice)
         {
             // assign
-            var parser = new Parser(new[] {"!"}, " ", InputString);
+            var parser = new Parser(new[] {"!"}, " ",new string[] { "--", "-", "—" }, InputString);
             
             // act
             var slice = parser.Peek(ahead, amount);
